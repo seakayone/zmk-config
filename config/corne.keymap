@@ -12,7 +12,7 @@
     behaviors {
         hml: ModTapHome {
             compatible = "zmk,behavior-hold-tap";
-            label = "Home Row Mods left";
+            label = "Home Row Mods Left";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -23,7 +23,7 @@
 
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
+            label = "Home Row Mods Right";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
