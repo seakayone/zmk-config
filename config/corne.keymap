@@ -56,12 +56,21 @@
             >;
         };
 
-        nav {
+        iJandNav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &kp LG(NUMBER_1)  &kp LA(F12)    &kp F12        &kp LS(F6)     &kp LC(LS(R))     &trans    &trans    &trans  &trans     &trans  &trans
+&trans  &kp LG(LS(A))     &kp LG(F6)     &kp LG(LS(S))  &kp LG(LA(F))  &kp LG(LS(N4))    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &kp LG(LA(N))     &kp LG(LA(M))  &kp LG(LA(C))  &kp LA(LG(V))  &kp LG(F9)        &trans    &trans    &trans  &trans     &trans  &trans
+                                         &trans         &trans         &trans            &trans    &trans    &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
