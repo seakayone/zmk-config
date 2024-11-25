@@ -98,7 +98,7 @@
 
         iJandNav {
             bindings = <
-&trans  &kp LG(NUMBER_1)  &kp LA(F12)    &kp F12        &kp LS(F6)     &kp LC(LS(R))     &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+&trans  &kp LG(NUMBER_1)  &kp LA(F12)    &kp LG(F12)    &kp LS(F6)     &kp LC(LS(R))     &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
 &trans  &kp LG(LS(A))     &kp LG(F6)     &kp LG(LS(S))  &kp LG(LA(F))  &kp LG(LS(N4))    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
 &trans  &kp LG(LA(N))     &kp LG(LA(M))  &kp LG(LA(C))  &kp LA(LG(V))  &kp LG(F9)        &trans    &trans         &trans       &trans     &trans  &trans
                                          &trans         &trans         &trans            &trans    &trans         &trans
